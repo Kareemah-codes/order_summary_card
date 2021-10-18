@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
 
 
+
 body{
     height: 100vh;
     width: 100%;
     font-family: 'Red Hat Display', sans-serif;
     background-color: hsl(225, 100%, 94%);
+    margin: 0;
 }
 .background{
     height: 100%;
@@ -16,8 +18,6 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    
-    ;
     
 }
 
@@ -121,8 +121,8 @@ body{
 .cancel_button:hover{
     border-radius: 6%;
     border: 0;
-    color: hsl(248, 100%, 96%);
-    background-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    
 }
 
 .cancel_button_text{
